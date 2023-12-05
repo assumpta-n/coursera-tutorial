@@ -3,78 +3,53 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Pseudo Class Selectors</title>
+    <title>Floating Elements</title>
     <style>
-        header li {
-            list-style: none;
+        div {
+            background-color: #00FFFF;
         }
 
-        li a:visited,
-        li a:link {
-            text-decoration: none;
-            color: black;
-            background-color: greenyellow;
-            border: olivedrab 1px solid;
-            display: block;
-            width: 200px;
-            text-align: center;
+        p {
+            width: 50px;
+            height: 50px;
+            border: 1px solid black;
+            float: left;
         }
 
-        li a:hover,
-        li a:active {
-            background-color: green;
-            color: white;
+        #p1 {
+            background-color: #A52A2A;
         }
 
-        header li:nth-child(3) {
-            font-size: 20px;
+        #p2 {
+            background-color: #DEB887;
         }
 
-        section div:nth-child(odd) {
-            background-color: aquamarine;
+        #p3 {
+            background-color: #5F9EA0;
+            clear: left;
         }
 
-        section div:nth-child(4):hover {
-            background-color: thistle;
-            padding: 2px;
-            cursor: pointer;
+        #p4 {
+            background-color: #FF7F50;
+        }
+
+        section {
+            clear: left;
         }
     </style>
 </head>
 
 <body>
-    <h1>Pseudo Class Selectors</h1>
+    <h1>Floating Elements</h1>
 
-    <header>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="http://goo.gl/V0Wl6s" target="_blank">AngularJS Course</a></li>
-            <li><a href="http://www.facebook.com/CourseraWebDev" target="_blank">Facebook Fan Page</a></li>
-        </ul>
-    </header>
+    <div>
+        <p id="p1"></p>
+        <p id="p2"></p>
+        <p id="p3"></p>
+        <p id="p4"></p>
+        <section>This is regular content continuing after the the paragraph boxes.</section>
+    </div>
 
-    <section>
-        <div>DIV 1</div>
-        <div>DIV 2</div>
-        <div>DIV 3</div>
-        <div>DIV 4</div>
-        <div>DIV 5</div>
-        <div>DIV 6</div>
-        <div>DIV 7</div>
-        <div>DIV 8</div>
-        <div>DIV 9</div>
-        <div>DIV 10</div>
-        <div>DIV 11</div>
-        <div>DIV 12</div>
-        <div>DIV 13</div>
-        <div>DIV 14</div>
-        <div>DIV 15</div>
-        <div>DIV 16</div>
-        <div>DIV 17</div>
-        <div>DIV 18</div>
-        <div>DIV 19</div>
-        <div>DIV 20</div>
-    </section>
 
 </body>
 
