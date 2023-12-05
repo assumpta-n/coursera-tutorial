@@ -3,40 +3,127 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Two Column Design</title>
+    <title>Three Column Design</title>
     <style>
-        * {
-            box-sizing: border-box;
-        }
-
         body {
             padding: 1em;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 1em;
         }
 
-        p {
-            width: 50%;
-            float: left;
-            padding: 10px;
+        header h1 {
+            color: green;
+            display: inline-block;
         }
+
+        header ul {
+            list-style-type: none;
+            float: inline-end;
+        }
+
+        header li {
+            display: inline;
+        }
+
+        header a:link,
+        header a:visited {
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+
+        /* header a:active,
+        header a:hover {} */
     </style>
 </head>
 
 <body>
-    <h1>Two Column Design</h1>
-
-    <div>
-        <p id="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia distinctio aliquid cupiditate
-            perferendis fuga, sit quasi alias vero sunt non, ratione earum dolores nihil! Consequuntur pariatur totam
-            incidunt soluta expedita.</p>
-        <p id="p2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta beatae voluptatibus veniam placeat
-            iure unde assumenda porro neque voluptate esse sit magnam facilis labore odit, provident a ea! Nulla,
-            minima.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius nemo vitae, cupiditate odio magnam
-            reprehenderit esse eum reiciendis repellendus incidunt sequi! Autem, laudantium, accusamus. Doloribus
-            tempora alias minima laborum, provident!</p>
-        <section>This is regular content continuing after the the paragraph boxes.</section>
-    </div>
-
-
+    <header>
+        <h1>Sumpy News</h1>
+        <ul class="menu">
+            <li> <a href="#latest">Latest</a></li>
+            <li><a href="#trending">Trending</a></li>
+            <li><a href="#humor">Humor</a></li>
+        </ul>
+    </header>
+    <section id="latest">
+        <h2>Latest Stories</h2>
+        <article>
+            <p class="column">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta beatae voluptatibus veniam
+                placeat
+                iure unde assumenda porro neque voluptate esse sit magnam facilis labore odit, provident a ea! Nulla,
+                minima.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius nemo vitae, cupiditate odio magnam
+                reprehenderit esse eum reiciendis repellendus incidunt sequi! Autem, laudantium, accusamus. Doloribus
+                tempora alias minima laborum, provident!
+            </p>
+            <button class="btn">Read More</button>
+        </article>
+        <article class="column">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta beatae voluptatibus veniam placeat
+                iure unde assumenda porro neque voluptate esse sit magnam facilis labore odit, provident a ea! Nulla,
+                minima.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius nemo vitae, cupiditate odio magnam
+                reprehenderit esse eum reiciendis repellendus incidunt sequi! Autem, laudantium, accusamus. Doloribus
+                tempora alias minima laborum, provident!
+            </p>
+            <button class="btn">Read More</button>
+        </article>
+        <article class="column">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta beatae voluptatibus veniam placeat
+                iure unde assumenda porro neque voluptate esse sit magnam facilis labore odit, provident a ea! Nulla,
+                minima.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius nemo vitae, cupiditate odio magnam
+                reprehenderit esse eum reiciendis repellendus incidunt sequi! Autem, laudantium, accusamus. Doloribus
+                tempora alias minima laborum, provident!
+            </p>
+            <button class="btn">Read More</button>
+        </article>
+    </section>
+    <section id="trending">
+        <h2>Trending Stories</h2>
+        <article>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta beatae voluptatibus veniam placeat
+                iure unde assumenda porro neque voluptate esse sit magnam facilis labore odit, provident a ea! Nulla,
+                minima.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius nemo vitae, cupiditate odio magnam
+                reprehenderit esse eum reiciendis repellendus incidunt sequi! Autem, laudantium, accusamus. Doloribus
+                tempora alias minima laborum, provident!
+            </p>
+            <button class="btn">Read More</button>
+        </article>
+    </section>
+    <section id="humor">
+        <h2>Humor</h2>
+        <article>
+            <p class="column">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta beatae voluptatibus veniam
+                placeat
+                iure unde assumenda porro neque voluptate esse sit magnam facilis labore odit, provident a ea! Nulla,
+                minima.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius nemo vitae, cupiditate odio magnam
+                reprehenderit esse eum reiciendis repellendus incidunt sequi! Autem, laudantium, accusamus. Doloribus
+                tempora alias minima laborum, provident!
+            </p>
+            <button class="btn">Read More</button>
+        </article>
+        <article class="column">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta beatae voluptatibus veniam placeat
+                iure unde assumenda porro neque voluptate esse sit magnam facilis labore odit, provident a ea! Nulla,
+                minima.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius nemo vitae, cupiditate odio magnam
+                reprehenderit esse eum reiciendis repellendus incidunt sequi! Autem, laudantium, accusamus. Doloribus
+                tempora alias minima laborum, provident!
+            </p>
+            <button class="btn">Read More</button>
+        </article>
+        <article class="column">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta beatae voluptatibus veniam placeat
+                iure unde assumenda porro neque voluptate esse sit magnam facilis labore odit, provident a ea! Nulla,
+                minima.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius nemo vitae, cupiditate odio magnam
+                reprehenderit esse eum reiciendis repellendus incidunt sequi! Autem, laudantium, accusamus. Doloribus
+                tempora alias minima laborum, provident!
+            </p>
+            <button class="btn">Read More</button>
+        </article>
+    </section>
 </body>
 
 </html>
