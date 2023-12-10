@@ -1,146 +1,31 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
-    <title>Three Column Design</title>
-    <style>
-        * {
-            box-sizing: border-box;
-        }
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        body {
-            padding: 1em;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            font-size: 1em;
-        }
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-        header h1 {
-            color: green;
-            display: inline-block;
-        }
-
-        header ul {
-            list-style-type: none;
-            float: inline-end;
-        }
-
-        header li {
-            display: inline;
-        }
-
-        header a:link,
-        header a:visited {
-            text-decoration: none;
-            text-transform: uppercase;
-        }
-
-        /* header a:active,
-        header a:hover {} */
-        .column {
-            background-color: blanchedalmond;
-            width: 33.33%;
-            float: left;
-            padding: 2em;
-        }
-
-        .trending {
-            clear: left;
-        }
-    </style>
+    <title>Bootstrap Starter Page</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-    <header>
-        <h1>Sumpy News</h1>
-        <ul class="menu">
-            <li> <a href="#latest">Latest</a></li>
-            <li><a href="#trending">Trending</a></li>
-            <li><a href="#humor">Humor</a></li>
-        </ul>
-    </header>
-    <section id="latest">
-        <h2>Latest Stories</h2>
-        <article class="column">
-            <h3>First Story</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta beatae voluptatibus veniam
-                placeat
-                iure unde assumenda porro neque voluptate esse sit magnam facilis labore odit, provident a ea! Nulla,
-                minima.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius nemo vitae, cupiditate odio magnam
-                reprehenderit esse eum reiciendis repellendus incidunt sequi! Autem, laudantium, accusamus. Doloribus
-                tempora alias minima laborum, provident!
-            </p>
-            <button class="btn">Read More</button>
-        </article>
-        <article class="column">
-            <h3>Second Story</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta beatae voluptatibus veniam placeat
-                iure unde assumenda porro neque voluptate esse sit magnam facilis labore odit, provident a ea! Nulla,
-                minima.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius nemo vitae, cupiditate odio magnam
-                reprehenderit esse eum reiciendis repellendus incidunt sequi! Autem, laudantium, accusamus. Doloribus
-                tempora alias minima laborum, provident!
-            </p>
-            <button class="btn">Read More</button>
-        </article>
-        <article class="column">
-            <h3>Third Story</h3>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta beatae voluptatibus veniam placeat
-                iure unde assumenda porro neque voluptate esse sit magnam facilis labore odit, provident a ea! Nulla,
-                minima.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius nemo vitae, cupiditate odio magnam
-                reprehenderit esse eum reiciendis repellendus incidunt sequi! Autem, laudantium, accusamus. Doloribus
-                tempora alias minima laborum, provident!
-            </p>
-            <button class="btn">Read More</button>
-        </article>
-    </section>
-    <section id="trending" class="trending">
-        <h2>Trending Stories</h2>
-        <article>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta beatae voluptatibus veniam placeat
-                iure unde assumenda porro neque voluptate esse sit magnam facilis labore odit, provident a ea! Nulla,
-                minima.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius nemo vitae, cupiditate odio magnam
-                reprehenderit esse eum reiciendis repellendus incidunt sequi! Autem, laudantium, accusamus. Doloribus
-                tempora alias minima laborum, provident!
-            </p>
-            <button class="btn">Read More</button>
-        </article>
-    </section>
-    <section id="humor">
-        <h2>Humor</h2>
-        <article>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta beatae voluptatibus veniam
-                placeat
-                iure unde assumenda porro neque voluptate esse sit magnam facilis labore odit, provident a ea! Nulla,
-                minima.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius nemo vitae, cupiditate odio magnam
-                reprehenderit esse eum reiciendis repellendus incidunt sequi! Autem, laudantium, accusamus. Doloribus
-                tempora alias minima laborum, provident!
-            </p>
-            <button class="btn">Read More</button>
-        </article>
-        <article>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta beatae voluptatibus veniam placeat
-                iure unde assumenda porro neque voluptate esse sit magnam facilis labore odit, provident a ea! Nulla,
-                minima.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius nemo vitae, cupiditate odio magnam
-                reprehenderit esse eum reiciendis repellendus incidunt sequi! Autem, laudantium, accusamus. Doloribus
-                tempora alias minima laborum, provident!
-            </p>
-            <button class="btn">Read More</button>
-        </article>
-        <article>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta beatae voluptatibus veniam placeat
-                iure unde assumenda porro neque voluptate esse sit magnam facilis labore odit, provident a ea! Nulla,
-                minima.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius nemo vitae, cupiditate odio magnam
-                reprehenderit esse eum reiciendis repellendus incidunt sequi! Autem, laudantium, accusamus. Doloribus
-                tempora alias minima laborum, provident!
-            </p>
-            <button class="btn">Read More</button>
-        </article>
-    </section>
+
+    <h1>Hello Coursera!</h1>
+
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>
