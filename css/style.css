@@ -4,3 +4,8 @@ body {
     background-color: #61122f;
     font-family: 'Oxygen', sans-serif;
 }
+
+/* Header Styles */
+.header-nav {
+    background-color: #f6b319;
+}
