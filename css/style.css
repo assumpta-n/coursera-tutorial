@@ -9,3 +9,9 @@ body {
 .header-nav {
     background-color: #f6b319;
 }
+
+.logo-img {
+    background: url('../img/restaurant-logo_large.png') no-repeat;
+    width: 150px;
+    height: 150px;
+}
