@@ -7,14 +7,19 @@ body {
 
 /* Header Styles */
 .header-nav {
-    background-color: #f6b319;
+    /* background-color: #f6b319; */
 }
 
-.navbar-brand img {
-    filter: grayscale(100%) brightness(70%) contrast(300%);
+.brand .logo {
+    float: left;
 }
 
-.navbar-brand div {
+.brand .logo div {
     width: 100px;
     height: 100px;
+}
+
+.brand img {
+    filter: grayscale(100%) brightness(70%) contrast(300%);
+
 }
