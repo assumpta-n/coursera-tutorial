@@ -12,5 +12,9 @@ body {
 
 .navbar-brand img {
     filter: grayscale(100%) brightness(70%) contrast(300%);
+}
 
+.navbar-brand div {
+    width: 100px;
+    height: 100px;
 }
