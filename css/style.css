@@ -20,6 +20,28 @@ body {
 }
 
 .brand img {
-    filter: grayscale(100%) brightness(70%) contrast(300%);
+    filter: grayscale(50%) brightness(70%) contrast(300%);
 
+}
+
+.brand .text span {
+    text-transform: Uppercase;
+    font-size: .7em;
+    letter-spacing: 1px;
+}
+
+.brand text img {
+    vertical-align: middle;
+}
+
+.brand h1 {
+    font: size 1.5em;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    text-shadow: 1px 2px grey;
+}
+
+.brand a {
+    text-decoration: none;
 }
