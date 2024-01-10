@@ -21,7 +21,7 @@ body {
 
 .brand img {
     filter: grayscale(50%) brightness(70%) contrast(300%);
-    opacity: .75;
+    opacity: 74%;
 
 }
 
@@ -33,6 +33,7 @@ body {
 
 .brand .text img {
     width: 20px;
+    opacity: 60%;
 }
 
 .brand .text p {
