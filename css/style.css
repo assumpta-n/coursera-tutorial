@@ -28,11 +28,16 @@ body {
 .brand .text span {
     text-transform: Uppercase;
     font-size: .7em;
-    letter-spacing: 1px;
+    letter-spacing: 3px;
 }
 
-.brand text img {
-    vertical-align: middle;
+.brand .text img {
+    width: 20px;
+}
+
+.brand .text p {
+    position: relative;
+    left: 27px;
 }
 
 .brand h1 {
